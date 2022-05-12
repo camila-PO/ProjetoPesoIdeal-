@@ -42,6 +42,7 @@ namespace ProjetoPesoIdeal
             this.label4 = new System.Windows.Forms.Label();
             this.infoIMC = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +50,7 @@ namespace ProjetoPesoIdeal
             // 
             this.imc.AutoSize = true;
             this.imc.Font = new System.Drawing.Font("Tw Cen MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imc.Location = new System.Drawing.Point(59, 41);
+            this.imc.Location = new System.Drawing.Point(98, 12);
             this.imc.Name = "imc";
             this.imc.Size = new System.Drawing.Size(316, 31);
             this.imc.TabIndex = 0;
@@ -58,8 +59,8 @@ namespace ProjetoPesoIdeal
             // calcular
             // 
             this.calcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(234)))), ((int)(((byte)(255)))));
-            this.calcular.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calcular.Location = new System.Drawing.Point(172, 293);
+            this.calcular.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calcular.Location = new System.Drawing.Point(236, 299);
             this.calcular.Name = "calcular";
             this.calcular.Size = new System.Drawing.Size(75, 29);
             this.calcular.TabIndex = 1;
@@ -71,7 +72,7 @@ namespace ProjetoPesoIdeal
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tw Cen MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 128);
+            this.label1.Location = new System.Drawing.Point(12, 113);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(193, 22);
             this.label1.TabIndex = 2;
@@ -79,7 +80,7 @@ namespace ProjetoPesoIdeal
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 153);
+            this.textBox1.Location = new System.Drawing.Point(11, 154);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(159, 20);
             this.textBox1.TabIndex = 3;
@@ -97,7 +98,7 @@ namespace ProjetoPesoIdeal
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 232);
+            this.textBox2.Location = new System.Drawing.Point(11, 249);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(160, 20);
             this.textBox2.TabIndex = 5;
@@ -106,8 +107,8 @@ namespace ProjetoPesoIdeal
             // voltarMenu
             // 
             this.voltarMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(234)))), ((int)(((byte)(255)))));
-            this.voltarMenu.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold);
-            this.voltarMenu.Location = new System.Drawing.Point(372, 3);
+            this.voltarMenu.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Bold);
+            this.voltarMenu.Location = new System.Drawing.Point(475, 12);
             this.voltarMenu.Name = "voltarMenu";
             this.voltarMenu.Size = new System.Drawing.Size(59, 24);
             this.voltarMenu.TabIndex = 7;
@@ -118,8 +119,8 @@ namespace ProjetoPesoIdeal
             // limpar
             // 
             this.limpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(234)))), ((int)(((byte)(255)))));
-            this.limpar.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold);
-            this.limpar.Location = new System.Drawing.Point(12, 258);
+            this.limpar.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.limpar.Location = new System.Drawing.Point(12, 275);
             this.limpar.Name = "limpar";
             this.limpar.Size = new System.Drawing.Size(63, 29);
             this.limpar.TabIndex = 9;
@@ -130,28 +131,28 @@ namespace ProjetoPesoIdeal
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tw Cen MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(111, 375);
+            this.label3.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(198, 368);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 22);
+            this.label3.Size = new System.Drawing.Size(0, 19);
             this.label3.TabIndex = 10;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tw Cen MT", 14.25F);
-            this.label4.Location = new System.Drawing.Point(139, 331);
+            this.label4.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(216, 331);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(141, 22);
+            this.label4.Size = new System.Drawing.Size(120, 19);
             this.label4.TabIndex = 11;
             this.label4.Text = "O seu IMC é de...";
             // 
             // infoIMC
             // 
             this.infoIMC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(234)))), ((int)(((byte)(255)))));
-            this.infoIMC.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold);
-            this.infoIMC.Location = new System.Drawing.Point(327, 415);
+            this.infoIMC.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Bold);
+            this.infoIMC.Location = new System.Drawing.Point(430, 415);
             this.infoIMC.Name = "infoIMC";
             this.infoIMC.Size = new System.Drawing.Size(104, 23);
             this.infoIMC.TabIndex = 12;
@@ -163,18 +164,29 @@ namespace ProjetoPesoIdeal
             // 
             this.pictureBox1.BackgroundImage = global::ProjetoPesoIdeal.Properties.Resources._2906550;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(327, 318);
+            this.pictureBox1.Location = new System.Drawing.Point(430, 322);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(104, 91);
+            this.pictureBox1.Size = new System.Drawing.Size(114, 87);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Tw Cen MT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(8, 426);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(256, 15);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "*Cálculos válidos apenas para pessoas adultas.";
             // 
             // CalcIMC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(197)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(443, 450);
+            this.ClientSize = new System.Drawing.Size(546, 450);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.infoIMC);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -213,5 +225,6 @@ namespace ProjetoPesoIdeal
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button infoIMC;
+        private System.Windows.Forms.Label label5;
     }
 }

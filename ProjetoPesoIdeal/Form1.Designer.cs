@@ -169,9 +169,9 @@
             // 
             this.pictureBox1.BackgroundImage = global::ProjetoPesoIdeal.Properties.Resources._2906550;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(410, 250);
+            this.pictureBox1.Location = new System.Drawing.Point(415, 268);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(110, 119);
+            this.pictureBox1.Size = new System.Drawing.Size(101, 101);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 

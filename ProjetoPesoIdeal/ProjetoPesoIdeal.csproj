@@ -119,5 +119,11 @@
   <ItemGroup>
     <None Include="Resources\Azul e Branco Gráfico de Passo a Passo de Processo Apresentação.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Azul e Branco Gráfico de Passo a Passo de Processo Apresentação1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

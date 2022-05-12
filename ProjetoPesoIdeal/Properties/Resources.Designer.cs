@@ -19,7 +19,7 @@ namespace ProjetoPesoIdeal.Properties {
     // através de uma ferramenta como ResGen ou Visual Studio.
     // Para adicionar ou remover um associado, edite o arquivo .ResX e execute ResGen novamente
     // com a opção /str, ou recrie o projeto do VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -106,6 +106,26 @@ namespace ProjetoPesoIdeal.Properties {
         internal static System.Drawing.Bitmap Azul_e_Branco_Gráfico_de_Passo_a_Passo_de_Processo_Apresentação {
             get {
                 object obj = ResourceManager.GetObject("Azul e Branco Gráfico de Passo a Passo de Processo Apresentação", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Azul_e_Branco_Gráfico_de_Passo_a_Passo_de_Processo_Apresentação1 {
+            get {
+                object obj = ResourceManager.GetObject("Azul e Branco Gráfico de Passo a Passo de Processo Apresentação1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ok {
+            get {
+                object obj = ResourceManager.GetObject("ok", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

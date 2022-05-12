@@ -124,9 +124,9 @@ desenvolvido pelo belga Lambert Quételet no fim do século XIX,e é a forma mai
 fácil desaber se uma pessoa está com o peso ideal ou não.</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>É importante mencionar que o IMC não leva em consideração a quantidade de gordura,
-de músculo ou de águaque a pessoa apresenta, sendo apenas uma referência do peso
-para a altura da pessoa. Por isso, pessoas que possuem muita massa muscular ou retenção
+    <value>Por isso, é importante mencionar que o IMC não leva em consideração a quantidade de 
+gordura, de músculo ou de água que a pessoa apresenta, sendo apenas uma referência do peso
+para a altura da pessoa. Então Pessoas que possuem muita massa muscular ou retenção
 de líquidos, não devem avaliar o peso apenas através do IMC, sendo recomendado consultar
 um nutricionista para fazer uma avaliação mais detalhada.</value>
   </data>
@@ -151,6 +151,12 @@ PESO IDEAL PARA ALTURA
 Disponível em:  &lt;https://www.tuasaude.com/peso-ideal/&gt;
 
 </value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>A idade e sexo por exemplo, são desconsideradas no cálculo de índice de massa corporal,
+por esse motivo, nem sempre o resultado do IMC de umapessoa pode revelar com exatidão
+o seu estado físico e o mais importante, se ela sofre ou não, risco de desenvolver alguma
+enfermidade que está relacionada a sua saúde física.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
