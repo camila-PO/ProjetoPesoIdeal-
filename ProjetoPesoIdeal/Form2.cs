@@ -26,18 +26,38 @@ namespace ProjetoPesoIdeal
 
         }
 
-        private void calcular_Click(object sender, EventArgs e)
+        private void calcular_Click(object sender, EventArgs e)           
         {
-            double peso, altura, imc;
+            try
+            {
+                if(txtAlturaIMC.Text == "")
+                {
 
-            peso = double.Parse(textBox2.Text);
-            altura = double.Parse(textBox1.Text);
+                    MessageBox.Show("Algo deu errado! Por favor, insira uma Altura válida!");
+                }
 
-            imc = (peso / (altura * altura));
+                if (txtPesoIMC.Text == "")
+                {
+                    MessageBox.Show("Algo deu errado! Por favor, insira um Peso válido!");
 
-            label3.Text = Convert.ToString(imc);
+                }
+                double peso, altura, imc;
+
+                peso = double.Parse(txtPesoIMC.Text);
+                altura = double.Parse(txtAlturaIMC.Text);
+
+                imc = (peso / (altura * altura));
+
+                label3.Text = Convert.ToString(imc);
+            }
+
+            catch (Exception erro)
+            {
+                MessageBox.Show("Algo deu errado! Por favor, insira dados válidos!\n\n" + erro);
+            }
 
         }//fim do botão calcular
+
 
         private void voltarMenu_Click(object sender, EventArgs e)
         {
@@ -47,12 +67,10 @@ namespace ProjetoPesoIdeal
 
         private void limpar_Click(object sender, EventArgs e)
         {
-            textBox2.Clear();
-            textBox1.Clear();
+            txtPesoIMC.Clear();
+            txtAlturaIMC.Clear();
 
-            label3.Text = "";          
-
-
+            label3.Text = "";   
 
 
         }// limpar 
@@ -78,6 +96,11 @@ namespace ProjetoPesoIdeal
             Visible = false;
             inf.ShowDialog(); //mostrar a tela ao ser chamada 
             Visible = true;
-        } 
+        }
+
+        private void txtAlturaIMC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }//fim da classe
 }//fim do projeto

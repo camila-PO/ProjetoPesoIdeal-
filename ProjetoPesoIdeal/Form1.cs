@@ -14,7 +14,9 @@ namespace ProjetoPesoIdeal
      
     {
         Form4 inf2;
-        CalcIMC imc;       
+        CalcIMC imc;
+        public double Altura;
+        public double PesoIdeal;
 
         public Form1()
         {
@@ -22,7 +24,8 @@ namespace ProjetoPesoIdeal
             imc = new CalcIMC();
             inf2 = new Form4();
             Visible = true;
-            
+            Altura = 0;
+            PesoIdeal = 0;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -37,26 +40,47 @@ namespace ProjetoPesoIdeal
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Double Altura = 0, PesoIdeal = 0;
-            Altura = double.Parse(txtAltura.Text);
-            if (cmbSexo.Text == "Feminino")
-            {
-                PesoIdeal = (62.7 * Altura) - 44.7;
-                MessageBox.Show(txtNome.Text +  ", o peso recomendado para você de acordo com as informações inseridas é: " + PesoIdeal.ToString(),
-                "Peso Ideal", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (cmbSexo.Text == "Masculino")
-            {
-                PesoIdeal = (72.7 * Altura) - 58;
-                MessageBox.Show(txtNome.Text  + ", o peso recomendado para você de acordo com as informações inseridas é: " + PesoIdeal.ToString(),
-                "Peso Ideal", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                MessageBox.Show("Escolha o sexo", "Peso Ideal", MessageBoxButtons.OK,
-                MessageBoxIcon.Exclamation);
-            }
-        }
+            
+                try
+                {
+
+                if (txtAltura.Text == "")
+                {
+                    MessageBox.Show("Algo deu errado! Por favor, insira uma altura válida!");
+
+                }
+                if (txtNome.Text == "")
+                {
+                    MessageBox.Show("Algo deu errado! Por favor, insira um Nome válido!");
+
+                }
+                else
+                {
+
+                    Altura = Convert.ToDouble(txtAltura.Text);
+                    if (cmbSexo.Text == "Feminino")
+                    {
+                        PesoIdeal = (62.7 * Altura) - 44.7;
+                        MessageBox.Show(txtNome.Text + ", o peso recomendado para você de acordo com as informações inseridas é: " + PesoIdeal.ToString(),
+                        "Peso Ideal", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else if (cmbSexo.Text == "Masculino")
+                    {
+                        PesoIdeal = (72.7 * Altura) - 58;
+                        MessageBox.Show(txtNome.Text + ", o peso recomendado para você de acordo com as informações inseridas é: " + PesoIdeal.ToString(),
+                        "Peso Ideal", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+
+
+
+                }
+                catch (Exception erro)
+                {
+                    MessageBox.Show("Algo deu errado! Por favor, insira dados válidos!\n\n" + erro);
+                }
+            
+        }// fim do botão calcular
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {

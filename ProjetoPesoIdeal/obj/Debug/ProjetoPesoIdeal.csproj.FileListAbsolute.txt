@@ -43,3 +43,29 @@ C:\Users\Dell\source\repos\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPe
 C:\Users\Dell\source\repos\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.exe
 C:\Users\Dell\source\repos\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.pdb
 C:\Users\Dell\source\repos\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.Form4.resources
+C:\Users\Dell\source\repos\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.csproj.AssemblyReference.cache
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\bin\Debug\ProjetoPesoIdeal.exe.config
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\bin\Debug\ProjetoPesoIdeal.exe
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\bin\Debug\ProjetoPesoIdeal.pdb
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.Form1.resources
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.CalcIMC.resources
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.form3.resources
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.Form4.resources
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.Properties.Resources.resources
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.csproj.GenerateResource.cache
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.csproj.CoreCompileInputs.cache
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.exe
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.pdb
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINAL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.csproj.AssemblyReference.cache
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\bin\Debug\ProjetoPesoIdeal.exe.config
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\bin\Debug\ProjetoPesoIdeal.exe
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\bin\Debug\ProjetoPesoIdeal.pdb
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.Form1.resources
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.CalcIMC.resources
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.form3.resources
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.Form4.resources
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.Properties.Resources.resources
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.csproj.GenerateResource.cache
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.csproj.CoreCompileInputs.cache
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.exe
+C:\Users\camila.poliveira34\source\repos\Peso Ideal FINALL\ProjetoPesoIdeal\ProjetoPesoIdeal\obj\Debug\ProjetoPesoIdeal.pdb

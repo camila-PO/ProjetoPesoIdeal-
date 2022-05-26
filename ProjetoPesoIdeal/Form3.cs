@@ -41,5 +41,10 @@ namespace ProjetoPesoIdeal
         {
 
         }
+
+        private void form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

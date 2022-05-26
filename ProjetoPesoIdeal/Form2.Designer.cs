@@ -33,9 +33,9 @@ namespace ProjetoPesoIdeal
             this.imc = new System.Windows.Forms.Label();
             this.calcular = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtAlturaIMC = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtPesoIMC = new System.Windows.Forms.TextBox();
             this.voltarMenu = new System.Windows.Forms.Button();
             this.limpar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -78,13 +78,14 @@ namespace ProjetoPesoIdeal
             this.label1.TabIndex = 2;
             this.label1.Text = "Me informe a sua altura:";
             // 
-            // textBox1
+            // txtAlturaIMC
             // 
-            this.textBox1.Location = new System.Drawing.Point(11, 154);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 20);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            this.txtAlturaIMC.Location = new System.Drawing.Point(11, 154);
+            this.txtAlturaIMC.Name = "txtAlturaIMC";
+            this.txtAlturaIMC.Size = new System.Drawing.Size(159, 20);
+            this.txtAlturaIMC.TabIndex = 3;
+            this.txtAlturaIMC.TextChanged += new System.EventHandler(this.txtAlturaIMC_TextChanged);
+            this.txtAlturaIMC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label2
             // 
@@ -96,13 +97,13 @@ namespace ProjetoPesoIdeal
             this.label2.TabIndex = 4;
             this.label2.Text = "Me informe o seu Peso:";
             // 
-            // textBox2
+            // txtPesoIMC
             // 
-            this.textBox2.Location = new System.Drawing.Point(11, 249);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(160, 20);
-            this.textBox2.TabIndex = 5;
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.txtPesoIMC.Location = new System.Drawing.Point(11, 249);
+            this.txtPesoIMC.Name = "txtPesoIMC";
+            this.txtPesoIMC.Size = new System.Drawing.Size(160, 20);
+            this.txtPesoIMC.TabIndex = 5;
+            this.txtPesoIMC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // voltarMenu
             // 
@@ -193,9 +194,9 @@ namespace ProjetoPesoIdeal
             this.Controls.Add(this.limpar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.voltarMenu);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtPesoIMC);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtAlturaIMC);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.calcular);
             this.Controls.Add(this.imc);
@@ -216,9 +217,9 @@ namespace ProjetoPesoIdeal
         private System.Windows.Forms.Label imc;
         private System.Windows.Forms.Button calcular;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAlturaIMC;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtPesoIMC;
         private System.Windows.Forms.Button voltarMenu;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button limpar;
